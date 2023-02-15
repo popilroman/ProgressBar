@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Saira', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    /* Ширина и максимальная ширина */
+    width: 1200px; max-width: 1200px;
+
+    /* Центрирование по горизонтали */
+    margin: 0 auto;
+}
+
+.section {
+    /* Высота и максимальная высота */
+    height: 100vh; min-height: 100vh;
+
+    /* Флекс-модель для центрирования дочерних элементов */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Фоновые цвета секций */
+.header {background-color: #ffa297;}
+.firstSection {background-color: #fb6d89;}
+.secondSection {background-color: #af4c77;}
+.thirdSection {background-color: #753866;}
+.footer {background-color: #4d2f59;}
+
+.progressBar {
+    /* Фиксированное позиционирование на странице */
+    position: fixed;
+    top: 0; left: 0;
+
+    /* Размеры, причем изначально ширина занимает 0% от родителя */
+    width: 0%; height: 30px;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    /* Цвет элемента */
+    background-color: #b6002e;
+}
+
+
